@@ -4,7 +4,7 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
-path =r"C:\1\din\熠程天津物流科技有限公司_考勤报表_20230302-20230302.xlsx"# 原始数据路径
+path =r"111.xlsx"# 原始数据路径
 result_path = r"C:\1\din\员工考勤_res.xlsx" # 结果路径
 data = pd.read_excel(path, sheet_name='每日统计', skiprows=2, header=[0,1])
 
